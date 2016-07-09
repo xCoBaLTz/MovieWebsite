@@ -27,17 +27,17 @@ shutter_island = media.Movie(
 
 deadpool = media.Movie(
     "Deadpool",
-    "A former Special Forces operative turned mercenary is subjected to a rogue "
-    "experiment that leaves him with accelerated healing powers, adopting the "
-    "alter ego Deadpool.",
+    "A former Special Forces operative turned mercenary is subjected to a "
+    "rogue experiment that leaves him with accelerated healing powers, "
+    "adopting the alter ego Deadpool.",
     "https://upload.wikimedia.org/wikipedia/en/4/46/Deadpool_poster.jpg",
     "https://www.youtube.com/watch?v=ZIM1HydF9UA")
 
 straight_outta_compton = media.Movie(
     "Straight Outta Compton",
     "The group NWA emerges from the mean streets of Compton in Los Angeles, "
-    "California, in the mid-1980s and revolutionizes Hip Hop culture with their "
-    "music and tales about life in the hood.",
+    "California, in the mid-1980s and revolutionizes Hip Hop culture with "
+    "their music and tales about life in the hood.",
     "https://upload.wikimedia.org/wikipedia/en/7/7a/Straight_Outta_Compton_poster.jpg",
     "https://www.youtube.com/watch?v=rsbWEF1Sju0")
 
@@ -48,7 +48,7 @@ now_you_see_me_2 = media.Movie(
     "https://upload.wikimedia.org/wikipedia/en/9/9a/Now_You_See_Me_2_poster.jpg",
     "https://www.youtube.com/watch?v=JzZh8kJJwe4")
 
-# creating an array of the Movie objects 
+# creating an array of the Movie objects
 movies = [inception,
           interstellar,
           shutter_island,
@@ -56,5 +56,6 @@ movies = [inception,
           straight_outta_compton,
           now_you_see_me_2]
 
-# calling the fresh tomatoes' open movie page method with our given array of movies
+# calling the fresh tomatoes' open movie page
+# method with our given array of movies
 fresh_tomatoes.open_movies_page(movies)
