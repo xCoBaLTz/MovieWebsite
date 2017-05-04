@@ -8,7 +8,7 @@ inception = media.Movie(
     "A thief, who steals corporate secrets through use of dream-sharing "
     "technology, is given the inverse task of planting an idea into the mind "
     "of a CEO.",
-    "https://upload.wikimedia.org/wikipedia/en/7/7f/Inception_ver3.jpg",
+    "https://vignette4.wikia.nocookie.net/inception/images/9/91/Inception_poster.jpg/revision/latest/scale-to-width-down/1000?cb=20140612010814",
     "https://www.youtube.com/watch?v=8hP9D6kZseM")
 
 interstellar = media.Movie(
